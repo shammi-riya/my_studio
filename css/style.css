@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+  --main-color: #1a001a;
+  --praimary-color : #6666ff;
+  --secondary-color : #650865;
+  --RGB-color1 : rgb(77, 0, 77)
+  hsl(300, 100%, 15%);
+  --RGB-coloe2: rgb(140, 26, 255)
+  hsl(270, 100%, 55%);
+  --RGB-color3: rgb(102, 102, 255)
+  hsl(240, 100%, 70%)
+}
+
+body {
+    background-color: var(--main-color);
+    line-height: 3rem;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    padding: 20px 0;
+}
+.logo{
+    font-size: 45px;
+    font-style: bold;
+    color: var(--secondary-color)
+}
+
+.menu ul {
+    list-style: none;
+   background-image: linear-gradient(to right, #6666ff,#650865);
+    
+    /* padding: 15px 0; */
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: lavender;
+   
+}
+.PraimaryBtn{
+    background-image: linear-gradient(to right, #6666ff,#650865);
+    padding: 15px 22px;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.secomdaryBtn{
+    color: aliceblue;
+    font-size: 20px;
+    padding: 14px 18px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+}
+header{
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.bannar{
+   
+     display: flex;
+     justify-content: right;
+     align-items: end;
+    
+   
+    
+   
+}
+
+.bannar_left{
+    width: 50%;
+   
+   
+}
+.bannar_left>img{
+    width: 100%;
+   display: flex;
+   justify-content: end;
+   align-items: end;
+   
+   
+}
+
+.Sub_bannar_title,
+.bannar_title,
+.bannar_details{
+    color: aliceblue;
+}
+.Sub_bannar_title{ 
+    font-size: large;
+}
+.bannar_title{
+    font-size: 40px;
+   
+}
+.bannar_details{ 
+    font-size: larger;
+}
+.bannar_right{
+    width: 60%;
+    margin-left: 10%;
+    
+}
